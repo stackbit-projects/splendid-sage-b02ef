@@ -1,0 +1,30 @@
+title: Moonwalk
+author: Abhinav Saxena
+url: ''
+description: >
+  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes
+  with horizontal list (for navbar and footer), card list (for portfolio), and a
+  generic vertical list. It is very easy to modify in case you want to build
+  over it - please see _layouts/home.html to do that.
+permalink: '/:slug.html'
+favicon: ./logo.png
+remote_theme: abhinavs/moonwalk
+theme_config:
+  appearance: dark
+  back_home_text: home..
+  date_format: '%Y-%m-%d'
+  show_description: true
+  show_navbar: true
+  show_footer: true
+  show_projects: true
+  show_old_projects: true
+  show_misc_list: false
+  show_soopr: true
+  soopr_base_url: 'https://soopr.netlify.app'
+highlighter: rouge
+sass:
+  style: ':compressed'
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+baseurl: ''

@@ -1,0 +1,15 @@
+<p class="post-date text-bold text-upcase">
+  {% if page.date %}
+    <span>{{ page.date | date: "%B %Y"}}</span>
+  {% endif %}
+</p>
+
+{% if site.theme_config.show_soopr  %}
+<div class="soopr-btn"
+      data-twitter="abhinav"
+      data-facebook="abhinavs"
+
+      style="min-height:36px;"
+      >
+</div>
+{% endif %}
